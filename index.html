@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div id="header">
+    <div id="container">
+        <nav>
+            <img src="logo.jpeg" class="logo">
+            <ul>
+                <li> <a href="#header">Home</a></li>
+                <li> <a href="#About">About</a></li>
+                <li> <a href="#Services">Services</a></li>
+                <li> <a href="#certificates">Certificates</a></li>
+                <li> <a href="#Contact">Contact</a></li>  
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Software Developer </p>
+            <h2>Hi, I'm <span> Kajal</span> Gupta <br>from Kanpur</h2>
+        </div>
+    </div>
+ </div>   
+ <!-----------------/about----------------->
+ <div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="pr.jpeg" alt="">
+           </div>
+                <div class="about-col-2">
+                   <h2 class="sub-title">About Me</h2>
+                   <p>An enthusiastic fresher with highly inspiring leadership skills, Bachelor in Computer Science & Engineering. I
+always want to learn and enhance my skills in Industrial and Technical Engineering, Flourishing my talent and to
+hames it in best possible way has always been a short of whim for me. Expert in implementation of each step of
+the project eager to learn new technologies and methodologies</p>
+                   
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills',event)">Skills</p>
+                    <p class="tab-links" onclick="opentab('education',event)">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                    <li><span>UI/UX Design</span> <br>Designation</li>
+                    <li><span>Web Development</span> <br>Web app Development</li>
+                    <li><span>App Development</span> <br>Building Android/iOS apps</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                    <li><span>2022-2026</span> <br>Bachelor of Technology</li>
+                    <li><span>2019-2021</span> <br>Highschool & Intermediate</li>
+                    
+                    </ul>
+                   </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+ </div>
+ <!--------------services--------------------->
+
+ <div id="Services">
+    <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+            <div>
+                
+                <h3>Web Development</h3>
+                <p>Aspiring Web Developer  Building Responsive, User-Centered Websites with visually appealing Digital solution.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                
+                <h3>UI/UX Design</h3>
+                <p>Aspiring UI/UX Designer  Crafting Intuitive and Engaging Digital Experiences through wireframes, prototypes for accessible solutions. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                
+                <h3>App Development</h3>
+                <p>Aspiring App Developer  Focused on Building Innovative, User-Friendly Mobile Solutions.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ 
+
+ <!------------------------projects---------------------->
+
+ <!--<div id="Projects">
+    <div class="container">
+        <h2 class="sub-title">Projects</h2>
+        <div class="projects-list">
+            <div>
+            <h3><a href="#">. Location Tracking System</a></h3>
+            <p>The Dynamic Programming with high substance that compiled with online compiler bounded with Satelite Server. </p>
+            
+            </div>
+            <div>
+             <h3><a href="#">. Driver Drowsiness and Accident Prevention</a></h3>
+            <p>The program to make people attentive and safe with high performing sensor. </p>
+            
+            </div>
+            <div>
+             <h3><a href="#">. Library Managment System</a></h3>
+            <p>The Managment System provide the intellectual mode to gain knowledge and access for upcoming skills. </p>
+            
+            </div>
+        </div>
+    </div>
+ </div>-->
+
+ <!-----------------------certificates----------------------->
+<section class="certificates-section">
+<div id="certificates">
+  <h2>Certificates</h2>
+
+  <div class="certificate-card">
+    <div class="certificate-image">
+      <img src="certificate.jpeg" alt="Web Development">
+    </div>
+
+    <div class="certificate-content">
+      <h3>Web Designing / Development</h3>
+      <p>
+        Successfully completed a Full Stack Web Development course covering 
+        Html, CSS, JavaScript, React.js, and Node.js. Built real-world projects 
+        including authentication systems and responsive web applications.
+      </p>
+    </div>
+  </div>
+
+  <div class="certificate-card">
+    <div class="certificate-image">
+      <img src="certificate1.jpeg" alt="DSA using C">
+    </div>
+
+    <div class="certificate-content">
+      <h3>Data Structure using C</h3>
+      <p>
+        Learned data visualization techniques using AI tools and modern 
+        libraries. Gained experience in presenting insights through 
+        interactive dashboards and graphical representations.
+      </p>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+<!---------------contact--------------->
+
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h3 class="sub-title">Contact Me</h3>
+                <p>Kajal134875@gmail.com</p>
+                <p>+91 7991762592</p>
+                <div class="social-names">
+                  <p><a href="https://www.linkedin.com/in/kajal-b154ba3a9?utm_source=share_via&utm_content=profile&utm_medium=member_android">LinkedIn</a></p>
+                  <p><a href="">Git HUb</a></p>
+                </div>
+                <a href="Black and White Clean Professional A4 Resume.pdf" class=" btn btn2 ">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">copyright @ Kajal, made with ❤️ 
+
+    </div>
+</div>
+
+
+
+
+
+
+ <script>
+
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname,event){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script>
+
+
+</body>
+</html>
